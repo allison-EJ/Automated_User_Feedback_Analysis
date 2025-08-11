@@ -32,31 +32,34 @@ Automated_User_Feedback_Analysis/
 
 ## Getting Started
 
-### 1️ Clone the repository
+### 1️. Clone the repository
 ```
 git clone https://github.com/allison-EJ/Automated_User_Feedback_Analysis.git
 cd Automated_User_Feedback_Analysis
 ```
 
-### 2️ Install dependencies
-This project uses **Python 3.9+** and requires the following libraries:
-```
-pip install pandas numpy matplotlib seaborn spacy bertopic nltk
-```
-
-### 3️ For sentiment analysis
-```
-python -m nltk.downloader vader_lexicon
-```
-
----
-
-## Data Availability
+## 2. Data Availability
 Due to file size limits on GitHub, some CSV files are tracked using **Git LFS**.  
 Ensure Git LFS is installed to download large datasets:
 
 ```
 git lfs install
 ```
+
+### 3. Install dependencies
+This project uses **Python 3.9+** and requires the following libraries:
+```
+pip install pandas numpy matplotlib seaborn spacy bertopic nltk
+```
+
+### 4. For sentiment analysis
+```
+python -m nltk.downloader vader_lexicon
+```
+
+---
+
+### 5. Run the analysis notebook
+Open Code_Folder/User_Feedback_Analysis.ipynb in Jupyter Notebook or VS Code and run all cells to reproduce the results.
 
 All datasets are anonymized and sourced from publicly available mobile app review data.
